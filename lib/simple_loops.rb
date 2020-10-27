@@ -19,3 +19,13 @@ def loop_message_n_times(string, n)
 end 
 
 
+def output_array(string, number)
+  count = 0 
+  array = []
+  while count < number do
+    array.push(string)
+    count += 1 
+  end 
+  array 
+end 
+
